@@ -1,5 +1,5 @@
 CC = gcc
-CFlags = -O2 -Wall
+CFLAGS = -O2 -Wall
 OBJS = main.o vector.o
 
 main: $(OBJS)
